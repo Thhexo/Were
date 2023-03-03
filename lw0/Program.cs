@@ -20,6 +20,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             else if (e % 3 == 0)
             {
                 Console.WriteLine("fizz");
+                
             }
         }
     }
