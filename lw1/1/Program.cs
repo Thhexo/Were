@@ -12,7 +12,7 @@ namespace MyApp
             int[] b = new int[n];
             for (int i = 0; i < n;)
             {
-                Console.WriteLine("Ведите " +i+ " элемент последовательности");
+                Console.WriteLine("Ведите " + i + " элемент последовательности");
                 l = Convert.ToInt32(Console.ReadLine());
                 b[i] = l;
                 i++;
@@ -20,14 +20,15 @@ namespace MyApp
 
             Console.WriteLine("Ведите p");
             p = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Следующие элементы последовательности больше " +p );
-            foreach(int posl in b)
+            Console.WriteLine("Следующие элементы последовательности больше " + p);
+            foreach (int posl in b)
             {
-                if ( posl> p)
+                if (posl > p)
                 {
                     Console.WriteLine(posl);
                 }
-                else{
+                else
+                {
                     continue;
                 }
 
