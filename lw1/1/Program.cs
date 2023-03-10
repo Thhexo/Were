@@ -10,12 +10,11 @@ namespace MyApp
             Console.WriteLine("Сколько элементов в вашей последовательности?");
             n = Convert.ToInt32(Console.ReadLine());
             int[] b = new int[n];
-            for (int i = 0; i < n;)
+            for (int i = 0; i < n;i++)
             {
-                Console.WriteLine("Ведите " + i + " элемент последовательности");
+                Console.WriteLine("Ведите {0} элемент последовательности", i);
                 l = Convert.ToInt32(Console.ReadLine());
                 b[i] = l;
-                i++;
             };
 
             Console.WriteLine("Ведите p");

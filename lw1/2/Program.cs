@@ -10,13 +10,11 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine("Сколько элементов в вашей последовательности?");
             n = Convert.ToInt32(Console.ReadLine());
             int[] an = new int[n];
-            for (int i = 0; i < n;)
+            for (int i = 0; i < n;i++)
             {
                 Console.WriteLine("Ведите {0} элемент последовательности", i);
                 l = Convert.ToInt32(Console.ReadLine());
                 an[i] = l;
-                i++;
-
             };
 
 
